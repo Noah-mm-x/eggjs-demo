@@ -16,7 +16,7 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1675045816186_6688';
 
   // add your middleware config here
-  config.middleware = ['slow'];
+  // config.middleware = ['slow'];
 
   config.view = {
     defaultExtension: '.nj',

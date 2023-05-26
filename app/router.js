@@ -11,5 +11,6 @@ module.exports = app => {
   require('./../router/test')(app);
   require('./../router/moyu')(app);
   require('./../router/wb')(app);
+  require('./../router/download')(app);
 };
 
